@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Resume</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="./my-photo.jpg" alt="My Photo" class="avatar" />
+        <div class="info-text">
+          <h1>Антон Мазяев</h1>
+          <p>Начинающий <strong>Front-end</strong> разработчик.</p>
+          <p>
+            Саморазвитие - мое все. Я люблю решать интересные и cложные задачи
+          </p>
+
+          <h4>Мои контакты</h4>
+          <div class="social">
+            <a href="https://vk.com/moonlayt400" target="_blank">VK</a>
+            |
+            <a
+              class="instagram"
+              href="https://www.instagram.com/moonlayt400/"
+              target="_blank"
+            >
+              Instagram
+            </a>
+            |
+            <a href="" target="_blank" class="mobile"></a>
+            |
+            <a class="telegram" href="" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+
+        <ol class="hobby">
+          <li>Программирование</li>
+          <li>Музыка</li>
+          <li>Автозвук</li>
+          <li>Электроника</li>
+          <li>Автомобили</li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+
+        <table class="exp">
+          <!-- <thead>
+            <tr>
+              <th>Company</th>
+              <th>Position</th>
+              <th>Period</th>
+            </tr>
+          </thead> -->
+          <tbody>
+            <tr>
+              <td>Chip-Servise</td>
+              <td>Hardware Engineer</td>
+              <td>2018-2019</td>
+            </tr>
+            <tr>
+              <td>Soundkiller</td>
+              <td>Car audio Engineer</td>
+              <td>2019-2021</td>
+            </tr>
+            <tr>
+              <td>PC-Doctor</td>
+              <td>Hardware Engineer</td>
+              <td>2017-2018</td>
+            </tr>
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      </div>
+
+      <div class="card bg-red">
+        <h2>My Works</h2>
+        <ul class="work-list">
+          <li>
+            <a href="https://moonlayt400.github.io/food/" target="_blank"
+              >EATS App</a
+            >
+          </li>
+          <li>
+            <a href="https://moonlayt400.github.io/burger/" target="_blank"
+              >Burger</a
+            >
+          </li>
+          <li>
+            <a href="https://moonlayt400.github.io/cinema/" target="_blank"
+              >Cinema</a
+            >
+          </li>
+          <li>
+            <a href="https://moonlayt400.github.io/aim-game/" target="_blank"
+              >Game</a
+            >
+          </li>
+          <li>
+            <a href=" https://moonlayt400.github.io/iphone12/" target="_blank"
+              >Iphone</a
+            >
+          </li>
+          <li>
+            <a href="https://moonlayt400.github.io/a200/" target="_blank"
+              >Mercedes a200</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h2>Connect me</h2>
+
+        <br />
+
+        <form>
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" id="name" placeholder="Enter your name ..." />
+            </div>
+            <div class="form-group">
+              <label for="email">Your email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email ..."
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="text">Your message</label>
+            <textarea name="" id="text" cols="20" rows="2"></textarea>
+          </div>
+
+          <input class="btn" type="submit" value="Send" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
